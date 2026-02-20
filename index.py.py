@@ -58,7 +58,7 @@ def daily_data():
     elif option == "2":
         print("Your data subscription of 110MB for N100 is successful.")
     elif option == "3":
-        print("Your data subscription of 500MB for N350 is sucessful.")
+        print("Your data subscription of 500MB for N350 is successful.")
     elif option == "4":
         print("Your data subscription of 3.5GB for N1000 is sucessful.")
     elif option == "0":
@@ -71,7 +71,7 @@ def daily_data():
 def weekly_data():
     print("""
         For Weekly data plans
-        1. N750 = 1.2GB
+        1. N750 = 1.2GB + 1hr(IG/TT/YT)
         2. N500 = 500MB
         3. N800 = 1GB
         4. N2000 = 6GB
@@ -79,13 +79,13 @@ def weekly_data():
         """)
     option = input("Enter your option: ")
     if option == "1":
-        print("Your data subscription of 12GB +    1hr(IG/TT/YT) for N750 issuccessful.")
+        print("Your data subscription of 1.2GB + 1hr(IG/TT/YT) for N750 is successful.")
     elif option == "2":
-        print("Your data subscription of500MB  for N500 is successful.")
+        print("Your data subscription of 500MB for N500 is successful.")
     elif option == "3":
-        print("Your data subscription of 1GBfor    N800 is successful.")
+        print("Your data subscription of 1GB for N800 is successful.")
     elif option == "4":
-        print("Your data subscription of 6GBfor    N2000 is successful.")
+        print("Your data subscription of 6GB for N2000 is successful.")
     elif option == "0":
         data_plans()
     else:
